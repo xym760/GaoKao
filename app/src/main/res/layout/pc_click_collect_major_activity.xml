@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.personalcenter.ClickCollectMajorActivity">
+
+    <WebView
+        android:id="@+id/click_major_detail_webview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/lightgray"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/click_collect_major_imageView"
+            android:layout_width="40dp"
+            android:layout_height="@dimen/image_size_small"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/item_high"
+            android:background="@drawable/ic_favorite" />
+
+        <ImageView
+            android:id="@+id/click_share_major_imageView"
+            android:layout_width="40dp"
+            android:layout_height="@dimen/image_size_small"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/item_high"
+            android:background="@drawable/ic_skip" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

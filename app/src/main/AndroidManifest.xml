@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nxist.gaokao">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_slide"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="android:icon">
+        >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.MajorQuery" />
+        <activity android:name=".view.CollegeQuery" />
+        <activity android:name=".view.MajorSearch" />
+        <activity android:name=".view.PublishActivity" />
+        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.personalcenter.RegisterActivity" />
+        <activity android:name=".view.exchange.CommentActivity" />
+        <activity android:name=".view.personalcenter.CollectActivity" />
+        <activity android:name=".view.personalcenter.CollectCollege" />
+        <activity android:name=".view.personalcenter.ClickCollectCollegeActivity" />
+        <activity android:name=".view.personalcenter.FeedbackActivity" />
+        <activity android:name=".view.home.MessageDetailActivity" />
+        <activity android:name=".view.personalcenter.UserInfoActivity" />
+        <activity android:name=".view.personalcenter.UpdatePasswordActivity" />
+        <activity android:name=".view.home.MajorDetailActivity" />
+        <activity android:name=".view.personalcenter.CollectMajor" />
+        <activity android:name=".view.personalcenter.ClickCollectMajorActivity" />
+        <activity android:name=".view.home.RecommendCollege"></activity>
+    </application>
+
+</manifest>

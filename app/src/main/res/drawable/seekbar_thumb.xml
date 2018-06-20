@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态-->
+    <item android:drawable="@mipmap/ic_launcher" android:state_pressed="true" />
+
+    <!-- 有焦点状态 -->
+    <item android:drawable="@mipmap/ic_launcher" android:state_focused="true" />
+
+    <!-- 普通状态 -->
+    <item android:drawable="@drawable/ic_arrow_double_right" />
+
+</selector>
