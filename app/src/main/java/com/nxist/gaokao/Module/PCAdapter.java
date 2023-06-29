@@ -1,9 +1,9 @@
 package com.nxist.gaokao.Module;
 
-import android.content.Context;
+import static android.content.Context.MODE_PRIVATE;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.UpdateUserInfo;
 import com.nxist.gaokao.view.personalcenter.CollectActivity;
@@ -21,11 +23,7 @@ import com.orhanobut.dialogplus.DialogPlus;
 import com.orhanobut.dialogplus.OnClickListener;
 import com.orhanobut.dialogplus.OnItemClickListener;
 
-
 import java.util.List;
-
-import static android.content.Context.MODE_PRIVATE;
-import static com.nxist.gaokao.services.UpdateUserInfo.updateUser;
 
 /**
  * Created by 徐源茂 on 2018/3/27.

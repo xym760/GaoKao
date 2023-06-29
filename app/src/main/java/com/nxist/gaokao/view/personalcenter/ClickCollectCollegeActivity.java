@@ -5,11 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -17,6 +13,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.nxist.gaokao.Module.BasicData;
 import com.nxist.gaokao.Module.College;
@@ -26,7 +26,6 @@ import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.AndroidShare;
 import com.nxist.gaokao.services.NetworkConnect;
 import com.nxist.gaokao.services.SchoolJsonAnalysis;
-import com.nxist.gaokao.view.CollegeQuery;
 import com.orhanobut.dialogplus.DialogPlus;
 import com.orhanobut.dialogplus.OnItemClickListener;
 

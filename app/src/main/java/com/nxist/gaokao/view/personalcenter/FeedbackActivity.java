@@ -5,10 +5,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,19 +21,19 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.github.ybq.android.spinkit.style.FadingCircle;
 import com.google.gson.Gson;
 import com.lzy.imagepicker.ImagePicker;
 import com.lzy.imagepicker.bean.ImageItem;
 import com.lzy.imagepicker.ui.ImageGridActivity;
 import com.nxist.gaokao.Module.Feedback;
-import com.nxist.gaokao.Module.TopicData;
 import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.CircleTransform;
 import com.nxist.gaokao.services.NetworkConnect;
 import com.nxist.gaokao.services.PicassoImageLoader;
 import com.nxist.gaokao.services.UploadMethod;
-import com.nxist.gaokao.view.PublishActivity;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -1,25 +1,17 @@
 package com.nxist.gaokao.view.home;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.daimajia.slider.library.Animations.DescriptionAnimation;
-import com.daimajia.slider.library.Indicators.PagerIndicator;
-import com.daimajia.slider.library.SliderLayout;
-import com.daimajia.slider.library.SliderTypes.BaseSliderView;
-import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.nxist.gaokao.Module.BasicData;
 import com.nxist.gaokao.Module.Message;
 import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.NetworkConnect;
-
-import java.util.HashMap;
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;

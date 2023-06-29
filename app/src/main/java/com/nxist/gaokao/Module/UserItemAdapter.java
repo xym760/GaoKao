@@ -2,7 +2,6 @@ package com.nxist.gaokao.Module;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +17,8 @@ import com.orhanobut.dialogplus.OnClickListener;
 import java.util.List;
 
 import static android.content.Context.MODE_PRIVATE;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class UserItemAdapter extends RecyclerView.Adapter<UserItemAdapter.ViewHolder>{
     private List<UserItem> mUserItemList;

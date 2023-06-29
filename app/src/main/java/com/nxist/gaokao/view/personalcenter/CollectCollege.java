@@ -1,22 +1,21 @@
 package com.nxist.gaokao.view.personalcenter;
 
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.nxist.gaokao.Module.BasicData;
 import com.nxist.gaokao.Module.CollectCollegeItemAdapter;
 import com.nxist.gaokao.Module.CollegeItem;
-import com.nxist.gaokao.Module.CollegeItemAdapter;
 import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.NetworkConnect;
-import com.nxist.gaokao.view.CollegeQuery;
 
 import java.util.ArrayList;
 import java.util.List;

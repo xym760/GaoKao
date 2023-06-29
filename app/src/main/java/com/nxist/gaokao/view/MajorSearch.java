@@ -1,12 +1,12 @@
 package com.nxist.gaokao.view;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.SearchView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.nxist.gaokao.R;
 

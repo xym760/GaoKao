@@ -1,11 +1,12 @@
 package com.nxist.gaokao.view.home;
 
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.nxist.gaokao.Module.BasicData;
 import com.nxist.gaokao.R;

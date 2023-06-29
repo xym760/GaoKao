@@ -4,7 +4,9 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-public class VerificationSeekBar extends android.support.v7.widget.AppCompatSeekBar {
+import androidx.appcompat.widget.AppCompatSeekBar;
+
+public class VerificationSeekBar extends AppCompatSeekBar {
     //index为滑块大致宽度
     private int index = 150;
     private boolean k = true;

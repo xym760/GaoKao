@@ -1,7 +1,8 @@
 package com.nxist.gaokao.view.personalcenter;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.nxist.gaokao.R;
 

@@ -1,8 +1,6 @@
 package com.nxist.gaokao.view.personalcenter;
 
-import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,11 +9,12 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.gson.Gson;
 import com.nxist.gaokao.Module.User;
 import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.NetworkConnect;
-import com.nxist.gaokao.view.LoginActivity;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 import retrofit2.Call;

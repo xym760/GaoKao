@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,12 +34,14 @@ import retrofit2.Response;
 
 import static android.content.Context.MODE_PRIVATE;
 
+import androidx.fragment.app.Fragment;
+
 /**
  * 考友圈
  * Created by 徐源茂 on 2018/3/18.
  */
 
-public class ExchangeFragment extends Fragment  implements View.OnClickListener ,GradationScrollView.ScrollViewListener {
+public class ExchangeFragment extends Fragment implements View.OnClickListener ,GradationScrollView.ScrollViewListener {
     private RoundedImageView userIcon;//顶部用户头像
     private ImageView backGroundImg;//顶部背景图
     private GradationScrollView scrollView;//整个滚动视图

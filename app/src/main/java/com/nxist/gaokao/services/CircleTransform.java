@@ -6,11 +6,13 @@ import android.graphics.Canvas;
 import android.graphics.drawable.BitmapDrawable;
 import android.util.AttributeSet;
 
+import androidx.appcompat.widget.AppCompatImageView;
+
 /**
  * Created by xym760 on 2018/4/3.
  */
 
-public class CircleTransform extends android.support.v7.widget.AppCompatImageView {
+public class CircleTransform extends AppCompatImageView {
     private Bitmap mBitmap;
     public CircleTransform(Context context) {
         this(context,null);

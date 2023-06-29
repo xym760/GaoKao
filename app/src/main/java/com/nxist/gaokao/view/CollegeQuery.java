@@ -6,11 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -21,6 +17,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.nxist.gaokao.Module.BasicData;
@@ -30,13 +31,11 @@ import com.nxist.gaokao.Module.CollegeDetailItem;
 import com.nxist.gaokao.Module.CollegeItem;
 import com.nxist.gaokao.Module.CollegeItemAdapter;
 import com.nxist.gaokao.Module.NetworkAPI;
+import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.AndroidShare;
 import com.nxist.gaokao.services.NetworkConnect;
-import com.nxist.gaokao.R;
 import com.nxist.gaokao.services.SchoolJsonAnalysis;
-import com.nxist.gaokao.services.UpdateUserInfo;
 import com.nxist.gaokao.services.UserService;
-import com.nxist.gaokao.view.personalcenter.ClickCollectCollegeActivity;
 import com.orhanobut.dialogplus.DialogPlus;
 import com.orhanobut.dialogplus.OnItemClickListener;
 

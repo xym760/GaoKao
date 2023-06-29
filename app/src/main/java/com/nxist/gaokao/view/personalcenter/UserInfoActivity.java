@@ -1,32 +1,25 @@
 package com.nxist.gaokao.view.personalcenter;
 
-import android.app.ActivityManager;
-import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.gson.Gson;
 import com.lzy.imagepicker.ImagePicker;
 import com.lzy.imagepicker.bean.ImageItem;
 import com.lzy.imagepicker.ui.ImageGridActivity;
-import com.nxist.gaokao.MainActivity;
 import com.nxist.gaokao.Module.BasicData;
-import com.nxist.gaokao.Module.CollegeItem;
-import com.nxist.gaokao.Module.Message;
-import com.nxist.gaokao.Module.PCAdapter;
-import com.nxist.gaokao.Module.PCItem;
 import com.nxist.gaokao.Module.User;
 import com.nxist.gaokao.Module.UserItem;
 import com.nxist.gaokao.Module.UserItemAdapter;
@@ -37,13 +30,11 @@ import com.nxist.gaokao.services.UpdateUserInfo;
 import com.nxist.gaokao.services.UploadMethod;
 import com.nxist.gaokao.services.UserService;
 import com.nxist.gaokao.view.LoginActivity;
-import com.nxist.gaokao.view.MajorQuery;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.pedant.SweetAlert.SweetAlertDialog;
 import de.hdodenhof.circleimageview.CircleImageView;
 import okhttp3.ResponseBody;
 import retrofit2.Call;

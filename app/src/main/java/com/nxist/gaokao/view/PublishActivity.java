@@ -10,12 +10,9 @@ import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,6 +27,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+
 import com.github.ybq.android.spinkit.style.FadingCircle;
 import com.google.gson.Gson;
 import com.lzy.imagepicker.ImagePicker;
@@ -41,7 +42,6 @@ import com.nxist.gaokao.services.CircleTransform;
 import com.nxist.gaokao.services.NetworkConnect;
 import com.nxist.gaokao.services.PicassoImageLoader;
 import com.nxist.gaokao.services.UploadMethod;
-import com.nxist.gaokao.services.UserService;
 
 import java.io.File;
 import java.util.ArrayList;
